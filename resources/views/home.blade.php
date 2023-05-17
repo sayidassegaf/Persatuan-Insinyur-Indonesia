@@ -86,7 +86,7 @@
       <!-- PARTNER APEC -->
       <section id="partner" class="partner">
           <div class="container">
-              <div class="section-header" data-aos="fade-up">
+              <div class="section-header text-center" data-aos="fade-up">
                   <h2>Partner</h2>
                   <p>This website is linked to APEC Agreement page at IEA webiste <span><a
                               href="https://www.ieagreements.org/agreements/apec/">
@@ -116,16 +116,14 @@
       <section id="alt-registration" class="alt-registration">
           <div class="container" data-aos="fade-up">
 
-              <div class="row justify-content-around gy-4">
-                  <div class="col-lg-6 img-bg" style="background-image: url(Asset/img/Online\ Registration2.png);"
+              <div class="row justify-content-around gy-4 fixed">
+                  <div class="col-lg-7 img-bg" style="background-image: url(/img/welcome-image-3.jpg)"
                       data-aos="zoom-in" data-aos-delay="100"></div>
 
                   <div class="col-lg-5 d-flex flex-column justify-content-center">
-                      <h1 class="display-3" data-aos="fade-up">APEC for the <br />APEC Engineer Registration </span>
-                      </h1>
-                      <br>
+                      <h1 class="display-3" data-aos="fade-up">APEC for the APEC Engineer Registration</h1>
 
-                      <h4 class="text-white">Be Recognized as a Competent Engineer in Indonesia and Beyond! </h4>
+                      <h5 class="display-4">Be Recognized as a Competent Engineer in Indonesia and Beyond! </h5>
 
                       <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
                           <a href="/form" class="btn-get-started">Online Registration</a>
@@ -136,130 +134,9 @@
           </div>
       </section><!-- End Alt Registration -->
 
-      <!-- ======= List Of The APEC Section ======= -->
-      {{-- <section id="apecregistereds" class="apecregistereds">
-          <div class="container" data-aos="fade-up">
+     
 
-              <div class="section-header">
-                  <h2>Registered APEC Engineers</h2>
-                  <h3>List of The APEC Engineer in Indonesia</h3>
-              </div>
-
-              <div class="slides swiper">
-                  <div class="swiper-wrapper justify-content-between">
-
-                      <div class="swiper-slide">
-                          <div class="col-md-2 mx-auto member" data-aos="fade-up" data-aos-delay="100">
-                              <div class="member-img align-items-center">
-                                  <img src="/img/registered-apec/luffy.jpg" class="img-fluid rounded-circle" alt="">
-                                  <div class="social-links">
-                                      <a href="#"><i class="bi bi-twitter"></i></a>
-                                      <a href="#"><i class="bi bi-facebook"></i></a>
-                                      <a href="#"><i class="bi bi-instagram"></i></a>
-                                      <a href="#"><i class="bi bi-linkedin"></i></a>
-                                  </div>
-
-                              </div>
-                              <div class="member-info text-center">
-                                  <a href="">
-                                      <h4>Handoko</h4>
-                                  </a>
-                                  <span>Mechanical Engineer</span>
-                              </div>
-                          </div><!-- End Team Member -->
-                      </div>
-
-                      <div class="swiper-slide">
-                          <div class="col-md-2 mx-auto member" data-aos="fade-up" data-aos-delay="200">
-                              <div class="member-img align-items-center">
-                                  <img src="/img/registered-apec/zoro.jpg" class="img-fluid rounded-circle " alt="">
-                                  <div class="social-links">
-                                      <a href="#"><i class="bi bi-twitter"></i></a>
-                                      <a href="#"><i class="bi bi-facebook"></i></a>
-                                      <a href="#"><i class="bi bi-instagram"></i></a>
-                                      <a href="#"><i class="bi bi-linkedin"></i></a>
-                                  </div>
-                              </div>
-                              <div class="member-info text-center">
-                                  <a href="">
-                                      <h4>Rama Usvika</h4>
-                                  </a>
-                                  <span>Informatics Engineer</span>
-                              </div>
-                          </div>
-                      </div><!-- End Team Member -->
-
-                      <div class="swiper-slide">
-                          <div class="col-md-2 mx-auto member align-items-center" data-aos="fade-up" data-aos-delay="200">
-                              <div class="member-img">
-                                  <img src="/img/registered-apec/sanji.jpg" class="img-fluid rounded-circle" alt="">
-                                  <div class="social-links">
-                                      <a href="#"><i class="bi bi-twitter"></i></a>
-                                      <a href="#"><i class="bi bi-facebook"></i></a>
-                                      <a href="#"><i class="bi bi-instagram"></i></a>
-                                      <a href="#"><i class="bi bi-linkedin"></i></a>
-                                  </div>
-                              </div>
-                              <div class="member-info text-center">
-                                  <a href="">
-                                      <h4>Rama Usvika</h4>
-                                  </a>
-                                  <span>Informatics Engineer</span>
-                              </div>
-                          </div><!-- End Team Member -->
-                      </div>
-
-
-                      <div class="swiper-slide">
-                          <div class="col-md-2 mx-auto member" data-aos="fade-up" data-aos-delay="300">
-                              <div class="member-img">
-                                  <img src="/img/registered-apec/chopper.jpg" class="img-fluid rounded-circle" alt="">
-                                  <div class="social-links">
-                                      <a href="#"><i class="bi bi-twitter"></i></a>
-                                      <a href="#"><i class="bi bi-facebook"></i></a>
-                                      <a href="#"><i class="bi bi-instagram"></i></a>
-                                      <a href="#"><i class="bi bi-linkedin"></i></a>
-                                  </div>
-                              </div>
-                              <div class="member-info text-center">
-                                  <a href="">
-                                      <h4>Raditya</h4>
-                                  </a>
-                                  <span>Civil Engineer</span>
-                              </div>
-                          </div><!-- End Team Member -->
-                      </div>
-
-                      <div class="swiper-slide">
-                          <div class="col-md-2 mx-auto member" data-aos="fade-up" data-aos-delay="100">
-                              <div class="member-img">
-                                  <img src="/img/registered-apec/brook.jpg" class="img-fluid rounded-circle" alt="">
-                                  <div class="social-links">
-                                      <a href="#"><i class="bi bi-twitter"></i></a>
-                                      <a href="#"><i class="bi bi-facebook"></i></a>
-                                      <a href="#"><i class="bi bi-instagram"></i></a>
-                                      <a href="#"><i class="bi bi-linkedin"></i></a>
-                                  </div>
-                              </div>
-                              <div class="member-info text-center">
-                                  <a href="">
-                                      <h4>Handoko</h4>
-                                  </a>
-                                  <span>Mechanical Engineer</span>
-                              </div>
-                          </div><!-- End Team Member -->
-                      </div>
-                  </div>
-                  <div class="swiper-pagination"></div>
-              </div>
-              <div class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                  <a href="#" class="btn-view-more">View More</a>
-              </div>
-          </div>
-          </div>
-      </section><!-- End Our Team Section --> --}}
-
-{{-- Test --}}
+{{-- List of Apec --}}
 
 <div class="slide-container swiper">
     <div class=" section-headers mt-4 mb-4">

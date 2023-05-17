@@ -633,25 +633,3 @@
         display: none;
     }
 }
-
-
-
-.form-section {
-    padding-left: 15px;
-    display: none;
-}
-
-.form-section.current {
-    display: inline;
-}
-
-.btn-btn-success {
-    margin-top: 10px;
-}
-
-.parsley-error-list {
-    margin: 2px 0 3px;
-    padding: 0;
-    list-style-type: none;
-    color: red;
-}

@@ -13,6 +13,14 @@
             My Post
           </a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('dashboard/registrations*') ? 'active' : '' }}" href="/dashboard/registrations">
+            <span data-feather="file-text"></span>
+            Registrations
+          </a>
+        </li>
+
       </ul>
 
       @can('admin')
@@ -24,6 +32,13 @@
       <ul class="nav flex-column">
         <li class="nav-item">
           <a class="nav-link {{ Request::is('dashboard/categories*') ? 'active' : '' }}" href="/dashboard/categories">
+            <span data-feather="grid"></span>
+            Post Categories
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('dashboard/registrations_admin*') ? 'active' : '' }}" href="/dashboard/registrations_admin">
             <span data-feather="grid"></span>
             Post Categories
           </a>

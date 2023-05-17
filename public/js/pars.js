@@ -12,7 +12,7 @@ $(function () {
 
 
         const step = document.querySelector('.step' + index);
-        step.style.backgroundColor = "#17a2b8";
+        step.style.backgroundColor = "#EB6C24";
         step.style.color = "white";
 
 
@@ -29,7 +29,7 @@ $(function () {
     });
 
     $('.form-navigation .next').click(function () {
-        $('.employee-form').parsley().whenValidate({
+        $('.registrations_forms').parsley().whenValidate({
             group: 'block-' + curIndex()
         }).done(function () {
             navigateTo(curIndex() + 1);

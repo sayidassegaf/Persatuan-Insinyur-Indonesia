@@ -10,9 +10,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- Custom styles for this template -->
     <link href="/css/dashboard.css" rel="stylesheet">
+    <link href="/css/intlTelInput.css" rel="stylesheet">
     
   </head>
   <body>
@@ -34,5 +35,30 @@
 
       <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
       <script src="/js/dashboard.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+      {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.2/parsley.min.js" integrity="sha512-eyHL1atYNycXNXZMDndxrDhNAegH2BDWt1TmkXJPoGf1WLlNYt08CSjkqF5lnCRmdm3IrkHid8s2jOUY4NIZVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       --}}
+                   <script src="/js/parsley.min.js"></script>
+                   <script src="/js/pars.js"></script>
+                   <script src="/js/previewimage.js"></script>
+
+      <script src="/js/intlTelInput.min.js"></script>
+      <script>
+        var input = document.querySelector("#phone");
+
+        window.intlTelInput(input, {
+          showFlags: false,
+          utilsScript: "/js/utils.js"
+      });
+    </script>
+    <script>
+      var input = document.querySelector("#phone1");
+
+      window.intlTelInput(input, {
+        showFlags: false,
+        utilsScript: "/js/utils.js"
+    });
+  </script>
   </body>
 </html>
